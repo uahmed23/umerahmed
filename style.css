@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Quicksand&display=swap');
+
+nav {
+    background-color: white;
+    /* padding-bottom: 20px; */
+
+}
+
+/* * {
+
+
+    background-color: whitesmoke;
+} */
+
+#projects {
+    padding-top: 50px;
+    /* padding: 20px, 20px, 20px, 20px; */
+    /* background-color: white; */
+}
+
+h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-align: center;
+    /* baclground-color: white; */
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align: right;
+    /* baclground-color: white; */
+}
+
+a {
+    background-color: white;
+}
+
+main {
+    background-color: whitesmoke;
+}
+
+#about {
+    background-color: rgb(43, 43, 43);
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-radius: 0px 0px 15px 15px;
+    transform: translate(-5px, -9px);
+
+    /* margin-right: 50px; */
+
+}
+
+#about h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#about h3 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+#about a {
+    text-decoration: none;
+    color: rgb(49, 174, 231);
+    background-color: rgb(43, 43, 43);
+}
+
+#abouth {
+
+    /* padding-bottom: 5px; */
+    background-color: silver;
+    border-radius: 20px 20px 0 0;
+    transform: translate(-5px, 0px);
+
+
+}
+
+#abouth h1 {
+    font-weight: lighter;
+    color: #000000a9;
+}
+
+pre {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+#aboutMe {
+    margin-left: 50px;
+    margin-right: 25px;
+}
+
+#aboutMe p {
+    font-family: 'Quicksand';
+    font-size: 1.5rem;
+    font-weight: 1;
+    letter-spacing: 1px;
+    text-align: left;
+
+
+
+}
