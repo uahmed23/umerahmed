@@ -107,6 +107,10 @@ pre {
     letter-spacing: 1px;
     text-align: left;
 
+}
 
-
+@media(min-width:60em) {
+    #aboutMe p {
+        font-size: 90%
+    }
 }
