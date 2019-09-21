@@ -108,9 +108,3 @@ pre {
     text-align: left;
 
 }
-
-@media(min-width:60em) {
-    #aboutMe p {
-        font-size: 90%
-    }
-}
