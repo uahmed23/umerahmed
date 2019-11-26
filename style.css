@@ -11,6 +11,16 @@ a {
 }
 
 main {
+    background-color: white;
+}
+
+.intro {
+    background-color: white;
+    padding-top: 100px;
+
+}
+
+.body {
     background-color: whitesmoke;
 }
 
