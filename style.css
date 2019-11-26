@@ -54,21 +54,32 @@ main {
 }
 
 #about h1 {
-    color: white;
+    color: #20c20e;
     font-family: 'Courier New', Courier, monospace;
 }
 
 
 #about h3 {
-    color: white;
+    color: #20c20e;
     font-family: 'Courier New', Courier, monospace;
     text-align: left;
     font-size: 0.8rem;
 }
 
+#about h3 pre {
+    color: #20c20e;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+}
+
 #about a {
     text-decoration: none;
-    color: rgb(49, 174, 231);
+    color: #20c20e;
+
+    /* color: rgb(49, 174, 231); */
     background-color: rgb(43, 43, 43);
 }
 
@@ -106,5 +117,16 @@ pre {
     font-weight: 1;
     letter-spacing: 1px;
     text-align: left;
+
+}
+
+a .card {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+a:hover {
+    text-decoration: none;
 
 }
