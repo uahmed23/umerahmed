@@ -6,34 +6,6 @@ nav {
 
 }
 
-/* * {
-
-
-    background-color: whitesmoke;
-} */
-
-#projects {
-    padding-top: 50px;
-    /* padding: 20px, 20px, 20px, 20px; */
-    /* background-color: white; */
-}
-
-h1 {
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: 4px;
-    text-align: center;
-    /* baclground-color: white; */
-}
-
-h2 {
-    font-size: 1rem;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    text-align: right;
-    /* baclground-color: white; */
-}
-
 a {
     background-color: white;
 }
@@ -118,6 +90,35 @@ pre {
     letter-spacing: 1px;
     text-align: left;
 
+}
+
+
+#projects {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* padding: 20px, 20px, 20px, 20px; */
+    /* background-color: white; */
+}
+
+#workterms {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-align: center;
+    /* baclground-color: white; */
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-align: right;
+    /* baclground-color: white; */
 }
 
 a .card {
