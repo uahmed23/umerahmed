@@ -141,3 +141,13 @@ a:hover {
     text-decoration: none;
 
 }
+
+.body img {
+
+    /* height: 15rem;
+    width: 15rem; */
+
+    object-fit: cover;
+
+    /* padding: 5px; */
+}
