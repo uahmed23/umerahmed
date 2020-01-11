@@ -1,33 +1,48 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Quicksand&display=swap');
 
+body {
+    margin: 0;
+}
+
+#navbar {
+
+    position: fixed;
+    /* Make it stick/fixed */
+    top: 0;
+    /* Stay on top */
+    width: 100%;
+    /* Full width */
+    transition: top 0.3s;
+    /* Transition effect when sliding down (and up) */
+}
+
+
+
+
+
 nav {
     background-color: white;
+    /* padding-left: 100; */
+    width: 100%;
     /* padding-bottom: 20px; */
 
 }
 
-a {
+.navbar a {
     background-color: white;
 }
 
 main {
+    padding-top: 50px;
     background-color: white;
 }
 
-.intro {
-    background-color: white;
-    padding-top: 100px;
 
-}
-
-.body {
-    background-color: whitesmoke;
-}
 
 #about {
     background-color: rgb(43, 43, 43);
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 50px;
     border-radius: 0px 0px 15px 15px;
     transform: translate(-5px, -9px);
 
@@ -102,17 +117,24 @@ pre {
 
 }
 
+.intro {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
 
 #projects {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    background-color: whitesmoke;
+    padding-top: 100px;
+    padding-bottom: 100px;
     /* padding: 20px, 20px, 20px, 20px; */
     /* background-color: white; */
 }
 
 #workterms {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: whitesmoke;
 }
 
 h1 {
@@ -143,11 +165,9 @@ a:hover {
 }
 
 .body img {
-
-    /* height: 15rem;
-    width: 15rem; */
-
     object-fit: cover;
+}
 
-    /* padding: 5px; */
+.card {
+    border-color: black;
 }
